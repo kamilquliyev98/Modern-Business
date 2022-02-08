@@ -461,13 +461,11 @@ nav ul li a:hover {
     margin-top: 24px;
 }
 
-.single-blog .bottom .card-footer .author-image {
-    width: 20%;
+.single-blog .bottom .card-footer .auth-image {
+    width: 10%;
 }
 
-.single-blog .bottom .card-footer .author-image img {
-    width: 100%;
-    vertical-align: bottom;
+.single-blog .bottom .card-footer .auth-image img {
     margin-right: 1rem;
     border-radius: 50%;
 }
@@ -478,7 +476,7 @@ nav ul li a:hover {
     font-size: 0.875em;
 }
 
-.single-blog .bottom .card-footer .name-date .author-name p {
+.single-blog .bottom .card-footer .name-date .auth-name p {
     font-weight: 700;
 }
 
@@ -529,10 +527,6 @@ nav ul li a:hover {
     color: rgba(255, 255, 255, 0.5);
 }
 
-.call-to-action .cta-right {
-    margin-left: 24px;
-}
-
 .call-to-action .cta-right .input-group {
     margin-bottom: 8px;
     display: flex;
@@ -565,7 +559,6 @@ nav ul li a:hover {
 }
 
 .call-to-action .cta-right .input-group .signup {
-    position: relative;
     color: #f8f9fa;
     display: inline-block;
     font-weight: 400;
@@ -623,7 +616,7 @@ nav ul li a:hover {
     }
 
     .call-to-action .cta-right {
-        margin: 2rem 0 0;
+        margin-top: 2rem;
     }
 
     .call-to-action .cta-right .input-group {
